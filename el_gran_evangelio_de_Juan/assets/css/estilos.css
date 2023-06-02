@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #cadbdb;
+}
+
+.indice {
+    display: block;
+    width: 100%;
+    text-align: center !important;
+    font-size: 50px !important;
+    margin-top: 30px !important;
+}
+
+.pontos::after {
+    content: "..................";
+    font-size: 70px;
+}
+
+.contenedor_indice {
+    margin: 20px 40px 20px 200px;
+}
+
+.contenedor_indice a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+
+.inicio,
+.page_2,
+.page_3,
+.page_4,
+.page_5,
+.page_6,
+.page_7,
+.page_8 {
+    width: 90%;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 100px 0 100px;
+    padding: 40px;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.inicio p span {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 150px;
+}
+
+.inicio h1,
+.page_2 a,
+.page_4 a,
+.page_7 a {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.cambio_de_capitulo {
+    display: flex;
+   justify-content: center;
+}
+.cambio_de_capitulo h2 {
+    font-size: 35px;
+    margin-right: 22px;
+}
+
+.fa-shuttle-space {
+    font-size: 50px;
+    color: #8138a8;
+}
+
+.subindo {
+    float: right;
+    rotate: 270deg;
+    margin-right: -9px;
+    margin-bottom: 10px;
+
+}
+.up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 10px 10px 5px;
+
+}
+
+
+.fasube {
+    color: #1f1f49;
+}
+
+
+@media (min-width:390px) and (max-width:440px) {
+
+    .contenedor_geral {
+        margin: auto;
+        width: 99%;
+    }
+
+    .pontos::after {
+        content: "....";
+        font-size: 30px;
+    }
+
+    .contenedor_indice {
+        margin: 20px 10px 20px 20px;
+    }
+
+    .contenedor_indice a {
+
+        font-size: 16px;
+
+    }
+    .inicio,
+    .page_2,
+    .page_3,
+    .page_4,
+    .page_5,
+    .page_6,
+    .page_7,
+    .page_8 {
+
+        font-size: 20px;
+        margin: 50px 20px 0 20px;
+        padding: 5px;
+        line-height: 30px;
+
+    }
+
+    .inicio p span {
+        font-size: 100px;
+    }
+    .page_2 a,
+    .page_3 a,
+    .page_4 a,
+    .page_5 a,
+    .page_6 a,
+    .page_7 a,
+    .page_8 a {
+        font-size: 25px !important;
+        display: block;
+        text-align: center !important;
+        padding-bottom: 10px;
+    }
+
+    .fa-shuttle-space {
+        font-size: 40px;
+        
+    }
+    .up {
+        
+        margin: 0 10px 10px 5px;
+
+    }
+  .subindo {
+    margin-right: -3px;
+    margin-bottom: 5px;
+  }
+
+
+   
+
+   
+
+}

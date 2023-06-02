@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bungee+Inline&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    margin: auto;
+    height: 100vh;
+    
+}
+section img{
+    width: 425px;
+    position: absolute;
+    z-index: -1;
+}
+span{
+    position: relative;
+    left: 140px;
+    top: 105px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4d4934;
+    font-family: 'Alex Brush', cursive;
+
+}
+h4{
+    display: inline;
+    font-size: 26px;
+    position: relative;
+    left: 40px;
+    bottom: 35px;
+}

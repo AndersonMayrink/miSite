@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background: linear-gradient(#98ccb1, #226842, #00a650);
+
+
+}
+
+.numero {
+
+    padding: 15px;
+    font-size: 200px;
+    color: #fff;
+    font-family: 'Black Ops One', cursive;
+    font-weight: 400;
+}
+
+.nome {
+
+    padding: 15px;
+    font-family: 'Balthazar', serif;
+    font-size: 70px;
+    color: #fff;
+
+}
+
+.container_horario {
+    border: 2px solid #00a650;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.hsc {
+    border-bottom: 2px solid #00a650;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    background-color: #deddde;
+}
+
+.l_a_v {
+    border-bottom: 2px solid #00a650;
+    border-top: #00a650 solid 2px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #deddde;
+}
+
+table {
+    width: 100%;
+    margin: 15px 0 15px 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    border: #00a650 1px solid;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+table td:nth-child(odd),
+table th:nth-child(odd) {
+    background-color: #ccedcd;
+}
+
+footer table td {
+    padding: 45px;
+    text-align: left;
+}
+
+@media (min-width:1300px) and (max-width:1750px) {
+    .numero {
+        font-size: 170px;
+        padding: 5px;
+    }
+
+    .nome {
+        font-size: 50px;
+        padding: 5px;
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .l_a_v {
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    footer table td {
+        padding: 35px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1170px) and (max-width:1300px) {
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 150px;
+
+    }
+
+    .nome {
+        font-size: 45px;
+
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .l_a_v {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    footer table td {
+        padding: 25px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1040px) and (max-width:1170px) {
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 130px;
+
+    }
+
+    .nome {
+        font-size: 40px;
+
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:970px) and (max-width:1040px) {
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 100px;
+
+    }
+
+    .nome {
+        font-size: 40px;
+
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+    }
+
+    footer table td {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:890px) and (max-width:970px) {
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 100px;
+
+    }
+
+    .nome {
+        font-size: 35px;
+
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+    }
+
+    footer table td {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:800px) and (max-width:890px) {
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 100px;
+
+    }
+
+    .nome {
+        font-size: 30px;
+
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    footer table td {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    td,
+    th {
+
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+}
+
+@media (min-width:780px) and (max-width:800px) {
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 90px;
+
+    }
+
+    .nome {
+        font-size: 30px;
+
+    }
+
+    .hsc {
+
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    footer table td {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    td,
+    th {
+
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+}
+
+@media (min-width:650px) and (max-width:780px) {
+    .container {
+        height: 150px;
+    }
+
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 70px;
+
+    }
+
+    .nome {
+        font-size: 25px;
+
+    }
+
+    .hsc {
+
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    footer table td {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    td,
+    th {
+
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+}
+
+@media (min-width:550px) and (max-width:650px) {
+    .container {
+        height: 150px;
+    }
+
+    .container_horario {
+        margin-top: 10px;
+    }
+
+    .numero {
+        font-size: 60px;
+
+    }
+
+    .nome {
+        font-size: 20px;
+
+    }
+
+    .hsc {
+
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    footer table td {
+        padding: 15px;
+        font-size: 13px;
+    }
+
+    td,
+    th {
+
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+}
+@media (min-width:440px) and (max-width:550px) {
+    
+  table .table1 {
+      width: 100%;
+  }
+    .container {
+        height: 140px;
+        width: 94%;
+    }
+
+    .container_horario {
+        margin-top: 10px;
+        width: 94%;
+    }
+
+    .numero {
+        font-size: 55px;
+
+    }
+
+    .nome {
+        font-size: 18px;
+
+    }
+
+    .hsc {
+
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .l_a_v {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    footer table td {
+        padding: 15px;
+        font-size: 13px;
+    }
+
+    td,
+    th {
+
+        font-size: 13px;
+        padding: 1px;
+
+    }
+
+}
+@media (min-width:390px) and (max-width:440px) {
+    .container {
+        height: 100px;
+        width: 99%;
+    }
+
+    .container_horario {
+    
+        margin: 5px;
+        margin: auto;
+        width: 99%;
+    }
+
+    .numero {
+        font-size: 45px;
+
+    }
+
+    .nome {
+        font-size: 13px;
+
+    }
+
+    .hsc {
+
+        padding: 5px;
+        font-size: 17px;
+    }
+
+    .l_a_v {
+        font-size: 15px;
+        padding: 5px;
+    }
+    table{
+        margin: 10px 0 10px 0;
+    }
+
+    footer table td {
+        padding: 15px;
+        font-size: 09px;
+    }
+
+    td,
+    th {
+
+        font-size: 13px;
+        padding: 1px;
+
+    }
+
+}

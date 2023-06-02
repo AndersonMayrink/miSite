@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background: rgba(61, 115, 82, 0.24);
+    
+}
+
+@media (min-width:793px) {
+   
+    .container {
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+           
+   
+       }
+       .titulo {
+           margin-top: 100px;
+       }
+       .titulo h2 {
+           text-align: center;
+           font-size: 30px;
+       }
+       .titulo h1 {
+           text-align: center;
+           font-size: 75px;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 75px;
+       }
+       .titulo h3 {
+           text-align: center;
+           margin-top: 130px;
+       }
+       
+       .titulo h3 a:hover {
+           text-decoration: none;
+       }
+       .capa_cap_01 {
+        display: block;
+        text-decoration: none;
+        text-align: right;
+        padding: 20px;
+        font-size: 30px;
+        margin-top: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #555;
+    }
+    .capitulo_1 .side_bar {
+        line-height: 50px;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100vw;
+        height: 50px;
+        background-color: #000;
+        position: fixed;
+        top: 0;
+       
+    }
+    .capitulo_1 .capitulo_01,
+    .capitulo_1 .prefacio_01 {
+      text-align: center;
+      margin-bottom:  40px; 
+      line-height: 30px;
+    }
+  .side_bar_nav {
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .side_bar_nav div a  {
+     font-size: 45px;
+     padding: 10px;
+     color: #fff;
+
+ }
+
+.capitulo_1 .capitulo_01 {
+    margin-top: 75px;
+}
+
+    .capitulo_1 .versiculos {
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: justify;
+    }
+    .capitulo_1 .versiculos li {
+        margin-left: 30px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-size: 1.27rem;
+
+    }
+    .capa_cap_01 {
+        display: block;
+        text-decoration: none;
+        text-align: right;
+        padding: 20px;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .navegar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+        height: 250px;
+    }
+    .navegar .capa{
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #555;
+        
+    }
+
+    /* inicio capítulo 01 */
+
+    .capitulo_1 .side_bar {
+        font-size: 35px;
+        }
+        .capitulo_1 h2 {
+            font-size: 30px;
+        }
+        .capitulo_1 h3 {
+            font-size: 28px;
+        }
+        .capitulo_1 .versiculos li {
+            font-size: 22px;
+        }
+}
+
+
+@media (max-width:792px) {
+    
+    .container {
+     margin: auto;
+     width: 100vw;
+     height: 100vh;
+     overflow: hidden;
+        
+
+    }
+    .titulo {
+        margin-top: 100px;
+    }
+    .titulo h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .titulo h1 {
+        text-align: center;
+        font-size: 65px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 75px;
+    }
+    .titulo h3 {
+        text-align: center;
+        margin-top: 130px;
+    }
+
+
+    /* inicio do capítulo 01 */
+
+    
+    
+    .capitulo_1 .side_bar {
+        line-height: 50px;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100vw;
+        height: 50px;
+        background-color: #000;
+        position: fixed;
+        top: 0;
+       
+    }
+    .side_bar_nav {
+        display: flex;
+        justify-content: space-around;
+   
+    }
+    .side_bar_nav div a  {
+        font-size: 45px;
+        padding: 10px;
+        color: #fff;
+   
+    }
+
+    .capitulo_1 .capitulo_01,
+    .capitulo_1 .prefacio_01 {
+      text-align: center;
+      margin-bottom:  40px; 
+      line-height: 30px;
+    }
+
+.capitulo_1 .capitulo_01 {
+    margin-top: 75px;
+}
+
+    .capitulo_1 .versiculos {
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: justify;
+    }
+    .capitulo_1 .versiculos li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+       font-size: 1.27rem;
+
+    }
+    .capa_cap_01 {
+        display: block;
+        text-decoration: none;
+        text-align: right;
+        padding: 20px;
+        font-size: 25px;
+        margin-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .navegar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+    }
+    .navegar .capa{
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #555;
+        
+    }
+   
+}
