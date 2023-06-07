@@ -2,21 +2,20 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
-         maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="images/supertux.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/estilos.css">
+         maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" href="images/supertux.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7556687869791531"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d97e1185b5.js" crossorigin="anonymous"></script>
     <title>Anderson</title>
 </head>
 
-<body>
+<body onload="interval()">
     <header>
-
         <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i>Menú</span>
 
         <nav class="main-nav">
@@ -24,36 +23,39 @@
                 <li class="menu__item container-submenu">
                     <a href="#" class="menu__link submenu-btn">Biblia <i class="fas fa-chevron-down"></i></a>
                     <ul class="submenu">
-                        <li class="menu__item"><a href="https://www.bibliaonline.com.br/rv"
-                                class="menu__link">Biblia-online</a></li>
-                        <li class="menu__item"><a href="https://biblehub.com/" class="menu__link">Biblia-original</a>
+                        <li class="menu__item">
+                            <a href="https://www.bibliaonline.com.br/rv" class="menu__link">Biblia-online</a>
                         </li>
-                        <li class="menu__item"><a href="carta_Laodicea/index.html" class="menu__link">Carta à Laodicea
-                            </a></li>
-                            <li class="menu__item juan"><a href="el_gran_evangelio_de_Juan/index.html"  class="menu__link">El Gran Evangelio de   Juan
-                            </a></li>
+                        <li class="menu__item">
+                            <a href="https://biblehub.com/" class="menu__link">Biblia-original</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="carta_Laodicea/index.html" class="menu__link">Carta à Laodicea
+                            </a>
+                        </li>
+                        <li class="menu__item juan">
+                            <a href="el_gran_evangelio_de_Juan/index.html" class="menu__link">El Gran Evangelio de Juan
+                            </a>
+                        </li>
                     </ul>
                 </li>
-                <li class="menu__item"><a href="645_volta.html" class="menu__link">Autobus</a></li>
-              
-                <li class="menu__item"><a href="https://contato.andersonmayrink.com" class="menu__link">Contactos</a></li>
+                <li class="menu__item">
+                    <a href="645_volta.html" class="menu__link">Autobus</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="https://contato.andersonmayrink.com" class="menu__link">Contactos</a>
+                </li>
             </ul>
         </nav>
-
-        <!-- inicio del slider -->
-
-        <div class="slider">
-            <div class="slider--controls">
-                <div class="slider--control"></div>
-                <div class="slider--control"></div>
-            </div>
-            <div class="slider--width">
-                <div class="slider--item"><img src="assets/images/img1.png" alt=""></div>
-                <div class="slider--item"><img src="assets/images/img2.png" alt=""></div>
-                <div class="slider--item"><img src="assets/images/img3.png" alt=""></div>
-            </div>
-        </div>
     </header>
+        <!-- inicio del slider -->
+        <div class="container">
+            <img src="../assets/images/1.png" alt="Imagen" id="slide">
+        </div>  
+       
+
+   
     <script src="assets/js/script.js"></script>
 </body>
 

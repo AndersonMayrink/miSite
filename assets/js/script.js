@@ -28,7 +28,7 @@ if(subMenu.classList.contains("desplegar")){
 
 
 
-
+/*
 
 let totalSlides = document.querySelectorAll('.slider--item').length;
 let currentSlide = 0;
@@ -61,10 +61,27 @@ function updateMargin() {
 }
 setInterval(goNext, 15000);
 
+*/
 
 
+const imgArray = [
+    './assets/images/1.png',
+    './assets/images/2.png',
+    './assets/images/3.png'
+]
 
+const img = document.querySelector('#slide')
+//const img = document.getElementById('slide')
+let i = 0
 
+const slideShow = () => {
+    img.src = imgArray[i]
+    i = ( i < imgArray.length - 1) ? i+1 : 0
+}
+
+const interval = () => {
+    setInterval(slideShow, 7000)
+}
 
 
 
