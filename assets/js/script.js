@@ -30,7 +30,8 @@ for (let i = 0; i < subMenuBtn.length; i++) {
 const imgArray = [
     './assets/images/1.png',
     './assets/images/2.png',
-    './assets/images/3.png'
+    './assets/images/3.png',
+    './assets/images/chico-cielo.jpg',
 
 ]
 
@@ -44,12 +45,12 @@ const slideShow = () => {
 }
 
 const interval = () => {
-    setInterval(slideShow, 5000);
+    setInterval(slideShow, 15000);
 }
 
 
 
-
+                                              
 
 
 
