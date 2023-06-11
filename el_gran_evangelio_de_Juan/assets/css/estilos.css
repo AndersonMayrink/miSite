@@ -33,6 +33,9 @@ body {
     font-size: 30px;
     color: #000;
 }
+.contenedor_indice a:hover{
+    text-decoration: underline;
+}
 
 .inicio,
 .page_2,
