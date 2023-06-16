@@ -1,13 +1,149 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: url(../assets/images/galaxia_01.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+body {
+  background: linear-gradient(90deg, #191654, #43c6ac, #43c6ac, #191654);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.container{
-    
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo h2 {
+  color: #fff;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.titulo h1 {
+  color: azure;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+}
+
+.titulo h3 a {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 470px;
+  color: black;
+}
+
+.container .capa_cap_01 {
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+  display: block;
+  text-align: right;
+  font-size: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .titulo h2 {
+    font-size: 50px;
+  }
+
+  .titulo h1 {
+    font-size: 90px;
+  }
+  .titulo h3 a {
+    margin-top: 230px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .titulo h2 {
+    font-size: 30px;
+  }
+
+  .titulo h1 {
+    font-size: 70px;
+  }
+
+  .titulo h3 a {
+    font-size: 35px;
+    margin-top: 285px;
+  }
+
+  .container .capa_cap_01 {
+    right: 30px;
+    bottom: 60px;
+    font-size: 30px;
+  }
+  .container .capa_cap_01 .fa-angle-right {
+    position: relative;
+    bottom: -5px;
+    font-size: 50px;
+  }
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .titulo h2 {
+    font-size: 40px;
+  }
+
+  .titulo h1 {
+    font-size: 60px;
+  }
+
+  .titulo h3 a {
+    font-size: 25px;
+
+    margin-top: 170px;
+  }
+
+  .container .capa_cap_01 {
+    right: 10px;
+    bottom: 20px;
+
+    font-size: 20px;
+  }
+  .container .capa_cap_01 .fa-angle-right {
+    position: relative;
+    bottom: -5px;
+    font-size: 40px;
+  }
+}
+
+/* abajo, voy a escribir los estilos del capítulo 01 */
+.capitulo_1 {
+  color: #000;
+  text-align: justify;
+  margin-left: 45px;
+}
+
+.side_bar {
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 40px;
+}
+
+.fas {
+  color: #fff;
+  font-size: 60px;
+}
+
+.capitulo_01 {
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
 }
