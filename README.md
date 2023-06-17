@@ -1,2 +1,4 @@
-# Estou aprendendo sobre GIT e GITHUB.
-hoy es martes y son 21:55
+# Estou aprendendo sobre GIT e GITHUB
+
+YO ESTOY APRENDIENDO A EDITAR CON VI.
+
