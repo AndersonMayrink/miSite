@@ -45,24 +45,26 @@ const slideShow = () => {
 }
 
 const interval = () => {
-    setInterval(slideShow, 15000);
+    setInterval(slideShow, 20000);
 }
 
 
 
                                               
 
+/*
+let hora = prompt("");
 
-
-let nome = "tamplate";
-let sobrenome = "string.";
-let criado = "Criado por Anderson";
-
-//let nomeCompleto = nome + " " + sobrenome;
-let nomeCompleto =  `Esto é uma ${nome}${sobrenome} ${criado}`;
-
-console.log( "Nome: " +  nomeCompleto);
-
+if (hora >= 12 && hora <= 18) {
+    alert("Buenas tardes!")
+} 
+if (hora < 12 && hora >= 00) {
+    alert("Buenos días!")
+}
+if (hora > 18 && hora <= 24) {
+    alert("Buenas noches!")
+}
+*/
 
 
 
