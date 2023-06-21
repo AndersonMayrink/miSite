@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.capitulo_3 .side_bar_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    line-height: 50px;
+    font-size: 45px;
+    font-style: italic;
+    position: fixed;
+    top: 0;
+
+}
+.side_bar .fas {
+    color: #fff;
+}
+.capitulo_03{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+.prefacio_03{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.versiculos{
+    text-align: justify;
+    margin: 50px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.navegar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navegar .capa {
+    font-size: 40px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #000;
+}
