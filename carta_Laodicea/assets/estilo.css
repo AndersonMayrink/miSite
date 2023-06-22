@@ -95,14 +95,12 @@
 
   .titulo h3 a {
     font-size: 25px;
-
     margin-top: 170px;
   }
 
   .container .capa_cap_01 {
     right: 10px;
-    bottom: 20px;
-
+    bottom: 200px;
     font-size: 20px;
   }
   .container .capa_cap_01 .fa-angle-right {
