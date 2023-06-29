@@ -36,7 +36,7 @@ body{
 }
 .versiculos{
     text-align:justify;
-    margin: 50px;
+   margin: 50px;
     font-size: 22px;
     line-height: 35px;
 }
@@ -50,4 +50,35 @@ body{
     text-decoration: none;
     margin-bottom: 30px;
     color: #000;
+}
+
+@media (min-width:375px) and (max-width:425px){
+    .capitulo_2 .side_bar_nav{
+       
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+   
+    .capitulo_02{
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .prefacio_02{
+        margin-top: 15px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .versiculos{
+        margin: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px;
+    }
+
+ 
+.navegar .capa {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
 }

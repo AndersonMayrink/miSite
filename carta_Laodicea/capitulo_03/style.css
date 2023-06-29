@@ -8,7 +8,7 @@ body {
     background-color: #eee;
 }
 
-.capitulo_3 .side_bar_nav{
+.capitulo_3 .side_bar_nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -23,34 +23,72 @@ body {
     top: 0;
 
 }
+
 .side_bar .fas {
     color: #fff;
 }
-.capitulo_03{
+
+.capitulo_03 {
     margin-top: 70px;
     text-align: center;
     font-size: 40px;
 }
-.prefacio_03{
+
+.prefacio_03 {
     margin-top: 25px;
     text-align: center;
     font-size: 30px;
     margin-bottom: 25px;
 }
-.versiculos{
+
+.versiculos {
     text-align: justify;
     margin: 50px;
     font-size: 22px;
     line-height: 35px;
 }
+
 .navegar {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .navegar .capa {
     font-size: 40px;
     text-decoration: none;
     margin-bottom: 30px;
     color: #000;
+}
+
+@media (min-width:375px) and (max-width:425px) {
+    .capitulo_3 .side_bar_nav {
+
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .capitulo_03 {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+
+    .prefacio_03 {
+        margin-top: 15px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .versiculos {
+        margin: 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .navegar .capa {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
 }
