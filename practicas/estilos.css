@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 section {
     margin: auto;
@@ -22,16 +23,21 @@ span{
     position: relative;
     left: 140px;
     top: 105px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     color: #4d4934;
-    font-family: 'Alex Brush', cursive;
+    font-family: sans-serif;
 
 }
 
 .emoji {
     font-size: 24px;
     color: rgb(32, 32, 22);
+  }
+  .familia{
+   display: block;
+   position: absolute;
+   top: 430px;
   }
 
   
